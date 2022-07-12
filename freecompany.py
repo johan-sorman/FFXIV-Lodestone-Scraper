@@ -36,9 +36,6 @@ for formed in formed:
     formedDate = formed
     formedDate = int(formedDate) # Convert to INT in order for datetime function to do it's thing
 
-
-
-
         # Class so functions can be called outside of this script
 
 class fc_lodestone_data():
