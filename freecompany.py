@@ -8,7 +8,7 @@ url = "https://eu.finalfantasyxiv.com/lodestone/freecompany/"
 
         # ID for the Free Company we want to scape
         
-id = "9279667032196907056"
+id = "your_id_goes_here"
 
         # Grabs html code from Lodestone
 
