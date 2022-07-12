@@ -1,4 +1,4 @@
-# Lodestone-scraper-free-company
+# FFXIV-Lodestone-Scraper
 ### Work In Progress ###
 An simple html scraper for Free Company Data. 
 <br/>
