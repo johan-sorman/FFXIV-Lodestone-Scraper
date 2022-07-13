@@ -25,6 +25,11 @@ lst2 = lodestone_page.find_all("p", {"class": "freecompany__text__name"})
 
 for Rank in lst[4]:
     fcRank = Rank
+    
+for Recruitment in lst[6]:
+    Recruitment.strip()
+    fcRecruitment = Recruitment
+
 for Members in lst[3]:
     activeMembers = Members
 LStr = str(lst2)
@@ -40,8 +45,9 @@ for formed in formed:
 
 class fc_lodestone_data():
     formed_date = datetime.datetime.fromtimestamp(formedDate)
-    name = fcName[0]
-    tag = fcName[2]
+    name = fcName[0].strip()
+    tag = fcName[2].strip()
     fc_formed = f"{formed_date:%Y-%m-%d}"
-    fcRank = Rank
-    activeMembers = Members
+    fcRank = Rank.strip()
+    activeMembers = Members.strip()
+    fcRecruitment = Recruitment.strip()
